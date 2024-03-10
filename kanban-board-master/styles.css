@@ -1,0 +1,90 @@
+html {
+  font-family: 'Nunito';
+  
+}
+
+body {
+  background: url('/kanban-board-master/OIP.jpeg');
+  background-size: cover;
+  color: #fff;
+}
+
+.boards {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center; 
+}
+
+.board {
+  margin: 0 16px;
+  border: 1px solid #fd951f11;
+  border-radius: 4px;
+  background-color: #141316;
+}
+
+.board h3 {
+  margin: 0;
+  padding: 16px;
+  color: #fd951fcc;
+}
+
+.dropzone {
+  min-width: 282px;
+  min-height: 200px;
+  padding: 16px;
+}
+
+.card {
+  width: 250px;
+  margin: 25px 0;
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px #fd951fcc;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #1a1a1c;
+}
+
+.status {
+  width: 30px;
+  height: 8px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.status.green {
+  background-color: #23d2ac;
+}
+
+.status.blue {
+  background-color: #33adff;
+}
+
+.status.red {
+  background-color: red;
+}
+
+.highlight {
+  background-color: #fd951f08;
+}
+
+.card, .dropzone {
+  transition: 300ms;
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+.over {
+  background-color: #4cd13711;
+}
+
+.heading{
+  text-align: center; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
